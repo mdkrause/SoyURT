@@ -26,9 +26,10 @@ factors. Field Crop Research, XX, XX-XX. \url{https://doi.org/10.1101/2022.04.11
 soil
 }
 \description{
-Soil variables in a depth interval of 5 to 15 cm obtained from Soilgrids
+Soil variables in a depth interval of 5 to 15 cm were obtained from Soilgrids
 (\url{https://soilgrids.org/}) for the 63 observed locations in the historical
-series.
+series analyzed by Krause et. al. (2022). The R code used to download and
+process the soil data can be retrieved at \url{https://github.com/mdkrause/VarComp-ME/blob/main/soil_data.R}.
 }
 \details{
 Levels of \code{Feature}:

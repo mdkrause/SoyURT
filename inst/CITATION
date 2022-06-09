@@ -1,0 +1,16 @@
+citHeader("To cite SoyURT in publications use:")
+
+citEntry(
+  entry    = "Article",
+  title    = "Using large soybean historical data to study genotype by environment variation and identify mega-environments with the integration of genetic and non-genetic factors",
+  author   = "Krause, M.D., Dias, K.O.G., Singh, A.K., Beavis, W.D.",
+  journal  = "Field Crop Research",
+  year     = "2022",
+  volume   = "1",
+  number   = "1",
+  pages    = "1-15",
+  url      = "https://doi.org/10.1101/2022.04.11.487885",
+  textVersion = paste(
+
+  )
+)

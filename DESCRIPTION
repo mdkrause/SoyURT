@@ -1,15 +1,21 @@
 Package: SoyURT
 Title: USDA Northern Region Uniform Soybean Tests Dataset
 Version: 0.1.0
-Author: Matheus Dalsente Krause, William Dale Beavis.
+Authors@R: c( 
+    person("Matheus", "Dalsente Krause", email="krause.d.matheus@gmail.com", 
+    role = c("aut", "cre"), comment = c(ORCID = "0000-0003-2411-9287")),
+    person("William", "Dale Beavis", email="wdbeavis@iastate.edu", 
+    role = c("aut"), comment = c(ORCID = "0000-0003-0790-2771")))
+Author: Matheus Dalsente Krause [aut, cre] (<https://orcid.org/0000-0003-2411-9287>),
+	William Dale Beavis [aut] (<https://orcid.org/0000-0003-0790-2771>)
 Maintainer: Matheus Dalsente Krause <krause.d.matheus@gmail.com>
 Description: Data sets used by Krause et al. (2022). It comprises phenotypic records obtained from the USDA Northern Region Uniform Soybean Tests from 1989 to 2019 for maturity groups II and III. In addition, soil and weather variables are provided for the 591 observed environments (combination of locations and years).
 URL: https://github.com/mdkrause/soyurt
 NeedsCompilation: no
 Language: en-US
-License: CC BY-SA 4.0
+License: CC BY 4.0
 Encoding: UTF-8
 Depends: R (>= 3.5.0)
 LazyData: true
-LazyDataCompression:xz
+LazyDataCompression: xz
 RoxygenNote: 7.2.0

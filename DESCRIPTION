@@ -9,7 +9,7 @@ Authors@R: c(
 Author: Matheus Dalsente Krause [aut, cre] (<https://orcid.org/0000-0003-2411-9287>),
 	William Dale Beavis [aut] (<https://orcid.org/0000-0003-0790-2771>)
 Maintainer: Matheus Dalsente Krause <krause.d.matheus@gmail.com>
-Description: Data sets used by Krause et al. (2022),  <doi:10.1101/2022.04.11.487885>. It comprises phenotypic records obtained from the USDA Northern Region Uniform Soybean Tests from 1989 to 2019 for maturity groups II and III. In addition, soil and weather variables are provided for the 591 observed environments (combination of locations and years).
+Description: Data sets used by 'Krause et al. (2022)'  <doi:10.1101/2022.04.11.487885>. It comprises phenotypic records obtained from the USDA Northern Region Uniform Soybean Tests from 1989 to 2019 for maturity groups II and III. In addition, soil and weather variables are provided for the 591 observed environments (combination of locations and years).
 URL: https://github.com/mdkrause/soyurt
 NeedsCompilation: no
 Language: en-US

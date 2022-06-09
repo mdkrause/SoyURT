@@ -19,7 +19,7 @@ A data frame in tidy format with 504 observations on the following 5 variables:
 Krause, M. D., Dias, K. O. G., Singh, A. K., and Beavis. W. D. (2022). Using large
 soybean historical data to study genotype by environment variation and
 identify mega-environments with the integration of genetic and non-genetic
-factors. Field Crop Research, XX, XX-XX. \url{https://doi.org/10.1101/2022.04.11.487885}
+factors. bioRxiv, \doi{doi:10.1101/2022.04.11.487885}
 }
 }
 \usage{

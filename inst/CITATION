@@ -6,7 +6,7 @@ citEntry(
   author   = "Krause, M.D., Dias, K.O.G., Singh, A.K., Beavis, W.D.",
   journal  = "bioRxiv",
   year     = "2022",
-  url      = "https://www.biorxiv.org/content/early/2022/05/11/2022.04.11.487885",
+  url      = "https://www.biorxiv.org/content/early/2022/05/11/2022.04.11.487885.pdf",
   doi = "https://doi.org/10.1101/2022.04.11.487885",
 	publisher = "Cold Spring Harbor Laboratory",
   textVersion = paste(

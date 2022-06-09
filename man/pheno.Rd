@@ -27,14 +27,14 @@ A data frame in tidy format with 39,006 observations on the following 13 variabl
 Krause, M. D., Dias, K. O. G., Singh, A. K., and Beavis. W. D. (2022). Using large
 soybean historical data to study genotype by environment variation and
 identify mega-environments with the integration of genetic and non-genetic
-factors. Field Crop Research, XX, XX-XX. \url{https://doi.org/10.1101/2022.04.11.487885}
+factors. bioRxiv, \doi{doi:10.1101/2022.04.11.487885}
 }
 }
 \usage{
 pheno
 }
 \description{
-Modeled data set by Krause et. al. (2022) from the USDA Northern Region
+Modeled data set by Krause et al. (2022) from the USDA Northern Region
 Uniform Soybean Tests. The data contains 4,257 experimental genotypes
 evaluated at 63 locations and 31 years resulting
 in 591 location-year combinations (environments) with 39,006 yield values

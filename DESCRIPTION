@@ -1,6 +1,6 @@
 Package: SoyURT
 Title: USDA Northern Region Uniform Soybean Tests Dataset
-Version: 1.0.0
+Version: 2.0.0
 Authors@R: c( 
     person("Matheus", "Dalsente Krause", email="krause.d.matheus@gmail.com", 
     role = c("aut", "cre"), comment = c(ORCID = "0000-0003-2411-9287")),

@@ -81,13 +81,8 @@
 #' Weather variables
 #'
 #' Weather variables obtained from NASA's Prediction of Worldwide Energy
-#' Resource (\url{https://power.larc.nasa.gov/}). Krause et. al. (2022) used
-#' environmental data just for the observed environments (591), but here we provide
-#' data for all combinations of locations (63) and years (31), resulting in
-#' information for 1,953 environments. This might give the users new opportunities of
-#' data analysis. If an environment was not observed in a given year, weather
-#' data was retrieved with the average planting and maturity data based on the
-#' location observed data.
+#' Resource (\url{https://power.larc.nasa.gov/}) by Krause et. al. (2022) for 591
+#' environments.
 #'
 #' @format A data frame in messy format with 504 observations on the following 5 variables:
 #' \describe{
@@ -116,7 +111,7 @@
 #' \item{\code{T2M_RANGE}}{daily temperature range at 2 meters}
 #' \item{\code{PTT}}{photothermal time (GDD \eqn{\times} daylight in hours)}
 #' \item{\code{PTR}}{photothermal ratio (GDD / daylight in hours)}
-#'}
+#'}@
 #'
 #' @source
 #' \describe{
@@ -125,4 +120,16 @@
 #' identify mega-environments with the integration of genetic and non-genetic
 #' factors. bioRxiv, \doi{doi:10.1101/2022.04.11.487885}
 #' }
+#'
+#' @note
+#' \describe{
+#' Comprehensive R Archive Network (CRAN) policy limits R package size to 5 Mb.
+#' In order to give the users new opportunities of data analysis, we we provide
+#' data for all combinations of locations (63) and years (31), resulting in
+#' information for 1,953 environments. If an environment was not observed in a
+#' given year, weather data was retrieved with the average planting and maturity data based on the
+#' location observed data. This data can be loaded in R
+#' load("https://drive.google.com/file/d/19wS0RWA3NX-lSJJ23OgvLoPV-TI1xKIg/view?usp=sharing")
+#' }
+#'
 "weather"

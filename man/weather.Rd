@@ -47,12 +47,18 @@ weather
 }
 \description{
 Weather variables obtained from NASA's Prediction of Worldwide Energy
-Resource (\url{https://power.larc.nasa.gov/}). Krause et. al. (2022) used
-environmental data just for the observed environments (591), but here we provide
-data for all combinations of locations (63) and years (31), resulting in
-information for 1,953 environments. This might give the users new opportunities of
-data analysis. If an environment was not observed in a given year, weather
-data was retrieved with the average planting and maturity data based on the
-location observed data.
+Resource (\url{https://power.larc.nasa.gov/}) for the 591 environments in
+the historical series analyzed by Krause et al. (2022).
+}
+\note{
+\describe{
+Comprehensive R Archive Network (CRAN) policy limits R package size to 5 Mb.
+In order to give the users new opportunities of data analysis, we provide
+weather data for all combinations of locations (63) and years (31), resulting in
+information for 1,953 environments. If an environment was not observed in a
+given year, weather data was retrieved with the average planting and maturity
+data based on the empirical data for that location. This data set can be downloaded
+\href{https://drive.google.com/file/d/19wS0RWA3NX-lSJJ23OgvLoPV-TI1xKIg/view?usp=sharing}{here}.
+}
 }
 \keyword{datasets}

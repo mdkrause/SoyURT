@@ -45,7 +45,7 @@
 #'
 #' Soil variables in a depth interval of 5 to 15 cm were obtained from Soilgrids
 #' (\url{https://soilgrids.org/}) for the 63 observed locations in the historical
-#' series analyzed by Krause et. al. (2022). The R code used to download and
+#' series analyzed by Krause et al. (2022). The R code used to download and
 #' process the soil data can be retrieved at \url{https://github.com/mdkrause/VarComp-ME/blob/main/soil_data.R}.
 #'
 #' @format A data frame in tidy format with 504 observations on the following 5 variables:
@@ -81,8 +81,8 @@
 #' Weather variables
 #'
 #' Weather variables obtained from NASA's Prediction of Worldwide Energy
-#' Resource (\url{https://power.larc.nasa.gov/}) by Krause et. al. (2022) for 591
-#' environments.
+#' Resource (\url{https://power.larc.nasa.gov/}) for the 591 environments in
+#' the historical series analyzed by Krause et al. (2022).
 #'
 #' @format A data frame in messy format with 504 observations on the following 5 variables:
 #' \describe{
@@ -111,7 +111,7 @@
 #' \item{\code{T2M_RANGE}}{daily temperature range at 2 meters}
 #' \item{\code{PTT}}{photothermal time (GDD \eqn{\times} daylight in hours)}
 #' \item{\code{PTR}}{photothermal ratio (GDD / daylight in hours)}
-#'}@
+#'}
 #'
 #' @source
 #' \describe{
@@ -124,12 +124,12 @@
 #' @note
 #' \describe{
 #' Comprehensive R Archive Network (CRAN) policy limits R package size to 5 Mb.
-#' In order to give the users new opportunities of data analysis, we we provide
-#' data for all combinations of locations (63) and years (31), resulting in
+#' In order to give the users new opportunities of data analysis, we provide
+#' weather data for all combinations of locations (63) and years (31), resulting in
 #' information for 1,953 environments. If an environment was not observed in a
-#' given year, weather data was retrieved with the average planting and maturity data based on the
-#' location observed data. This data can be loaded in R
-#' load("https://drive.google.com/file/d/19wS0RWA3NX-lSJJ23OgvLoPV-TI1xKIg/view?usp=sharing")
+#' given year, weather data was retrieved with the average planting and maturity
+#' data based on the empirical data for that location. This data set can be downloaded
+#' \href{https://drive.google.com/file/d/19wS0RWA3NX-lSJJ23OgvLoPV-TI1xKIg/view?usp=sharing}{here}.
 #' }
 #'
 "weather"

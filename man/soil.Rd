@@ -28,7 +28,7 @@ soil
 \description{
 Soil variables in a depth interval of 5 to 15 cm were obtained from Soilgrids
 (\url{https://soilgrids.org/}) for the 63 observed locations in the historical
-series analyzed by Krause et. al. (2022). The R code used to download and
+series analyzed by Krause et al. (2022). The R code used to download and
 process the soil data can be retrieved at \url{https://github.com/mdkrause/VarComp-ME/blob/main/soil_data.R}.
 }
 \details{

@@ -3,4 +3,4 @@ Krause, M.D., Dias, K.O.G., Singh, A.K., Beavis, W.D. Currently under review on 
 https://doi.org/10.1101/2022.04.11.487885 
 
 # SoyURT
-R package containing the data analysed by Krause et. al. (2022).
+R package containing Soybean Uniform Regional Trial data analysed by Krause et. al. (2022).
